@@ -4,6 +4,6 @@ function setup(){
 }
 
 function draw(){
-    ellipse(100, 100, 50, 50);
+    circle(100, 100, 50, 50);
     circle(200, 100, 50, 50);
 }
