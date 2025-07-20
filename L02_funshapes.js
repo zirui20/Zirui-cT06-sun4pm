@@ -8,5 +8,5 @@ function draw(){
 //     ellipse(200, 100, 50, 50);
 
   circle(300, 200, 100);
-  circle(300, 200, 100);
+  circle(350, 200, 80);
 }
