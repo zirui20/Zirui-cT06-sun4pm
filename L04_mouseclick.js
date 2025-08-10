@@ -4,5 +4,5 @@ function setup() {
 }
 
 function draw() {
-    circle(width)
+    circle(width/2,height/2,100)
 }
