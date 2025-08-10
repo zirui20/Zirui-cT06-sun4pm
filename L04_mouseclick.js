@@ -1,5 +1,5 @@
-// let shapeColor = "blue"
-
+let shapeColor = "blue"
+let size = 30;
 
 function setup() {
     createCanvas(600,600);
@@ -8,8 +8,8 @@ function setup() {
 
 function draw() {
     
-    fill(shapeColor);
-    circle(width/2,height/2,100);
+    // fill(shapeColor);
+    // circle(width/2,height/2,100);
 
 }
 
@@ -25,6 +25,13 @@ function draw() {
 // function mouseMoved() {
 //     circle(mouseX, mouseY, 30);
 
+
 function mouseDragged() {
-    circle(mouseX,mouseY, 30)
+    shapeColor = color(random(225), random(225), random(225));
+    size = random(30,80);
+    //num = random(3,8);
+    fill(shapeColor);
+    noStroke();
+
+    circle(mouseX,mouseY, size);
 }
