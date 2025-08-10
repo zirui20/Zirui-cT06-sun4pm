@@ -21,3 +21,8 @@ function draw() {
 //     //shapeColor = "white";
 //     shapeColor = "white";
 // }
+
+function mouseMoved() {
+
+    
+}
