@@ -14,10 +14,10 @@ function draw() {
 }
 
 function mousePressed() {
-    shapeColor = "color(random(255), random(255), random(255))";
+    shapeColor = color(random(255), random(255), random(255));
 }
 
 function mouseReleased() {
     //shapeColor = "white";
-    shapeColor = "color(random(255), random(255), random(255))";
+    shapeColor = "white";
 }
