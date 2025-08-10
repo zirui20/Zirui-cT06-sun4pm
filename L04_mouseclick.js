@@ -13,11 +13,11 @@ function draw() {
 
 }
 
-function mousePressed() {
-    shapeColor = color(random(255), random(255), random(255));
-}
+// function mousePressed() {
+//     shapeColor = color(random(255), random(255), random(255));
+// }
 
-function mouseReleased() {
-    //shapeColor = "white";
-    shapeColor = "white";
-}
+// function mouseReleased() {
+//     //shapeColor = "white";
+//     shapeColor = "white";
+// }
