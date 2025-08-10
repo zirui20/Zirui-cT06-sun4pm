@@ -22,7 +22,10 @@ function draw() {
 //     shapeColor = "white";
 // }
 
-function mouseMoved() {
-    circle(mouseX, mouseY, 30);
+// function mouseMoved() {
+//     circle(mouseX, mouseY, 30);
 
+function mouseDragged() {
+    
+}
 }
