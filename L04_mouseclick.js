@@ -26,6 +26,5 @@ function draw() {
 //     circle(mouseX, mouseY, 30);
 
 function mouseDragged() {
-    
-}
+    circle*circleX
 }
