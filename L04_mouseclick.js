@@ -23,6 +23,6 @@ function draw() {
 // }
 
 function mouseMoved() {
-    circle(mouseX, mouseY, 30)
+    circle(mouseX, mouseY, 30);
 
 }
