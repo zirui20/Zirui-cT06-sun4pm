@@ -13,6 +13,6 @@ function mousePressed(){
 }
 
 function mouseDragged(){
-
-    circlesize = 
+    
+    circlesize += 0.5;
 }
