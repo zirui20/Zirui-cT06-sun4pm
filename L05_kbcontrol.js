@@ -1,3 +1,3 @@
 function setup(){
-    createc
+    createCanvas(400,400)
 }
