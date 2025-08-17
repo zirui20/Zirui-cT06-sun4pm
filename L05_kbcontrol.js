@@ -8,5 +8,6 @@ function setup(){
 }
 
 function mousePressed(){
-    shapeColor = color(random(225), random(225), random(225))
+    shapeColor = color(random(225), random(225), random(225));
+
 }
