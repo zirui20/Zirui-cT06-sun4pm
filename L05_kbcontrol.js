@@ -13,6 +13,6 @@ function mousePressed(){
 }
 
 function mouseDragged(){
-    
+    fill(shapeColor)
     circlesize += 0.5;
 }
