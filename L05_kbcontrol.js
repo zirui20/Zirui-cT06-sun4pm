@@ -9,7 +9,7 @@ function setup(){
 
 function mousePressed(){
     shapeColor = color(random(225), random(225), random(225));
-    circlesize
+    circlesize = 5;
 }
 
 function mouseDragged(){
