@@ -18,3 +18,11 @@
 //     circlesize += 0.5;
 // }
 
+let rectSize = 50;
+
+function setup(){
+    createCanvas(400,400);
+
+    let centerX = width/2;
+    let centerY = height/2;
+}
