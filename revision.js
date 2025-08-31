@@ -11,15 +11,3 @@
 
 
 
- function setup() {
-    createCanvas(600,600);
-    background(220);
-}
-
-
-function draw() {
-    for (let i=0; i<5; i++){
-    ellipse(50 +i*50 , 50 + i*50, 50, 50)
-    fill(0, i*50, 0 d);
-    }
-}

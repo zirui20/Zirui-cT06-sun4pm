@@ -76,94 +76,95 @@
 
 //     }
 
-// }
+// // }
 
-// function keyReleased(){
-//     background(220);
+// // function keyReleased(){
+// //     background(220);
 
-// }
-
-
+// // }
 
 
 
 
 
-// let showCircle = false;
-// function setup(){
-//     createCanvas(400,400);
-//     background(220);
-//     stroke(0);
-//     fill(255);
-// }
-
-// function draw(){
-//     background(220);
-
-//     if(showCircle){
-//         circle(width/2, height/2,100);
-//     }
-// }
 
 
-// function keyPressed(){
-//     if(key==="c"||  key ==="C"){
-//         showCircle = !showCircle
-//     }
-// }
+// // let showCircle = false;
+// // function setup(){
+// //     createCanvas(400,400);
+// //     background(220);
+// //     stroke(0);
+// //     fill(255);
+// // }
 
-// function keyPressed(){
-//     console.log("key",key);
-//     console.log("key code", keyCode);
-// }
+// // function draw(){
+// //     background(220);
+
+// //     if(showCircle){
+// //         circle(width/2, height/2,100);
+// //     }
+// // }
+
+
+// // function keyPressed(){
+// //     if(key==="c"||  key ==="C"){
+// //         showCircle = !showCircle
+// //     }
+// // }
+
+// // function keyPressed(){
+// //     console.log("key",key);
+// //     console.log("key code", keyCode);
+// // }
 
 
 
 
 
-// let shapeColor = 'white';
+// // let shapeColor = 'white';
 
-// function setup(){
-//     createCanvas(200,200);
-//     noStroke();
+// // function setup(){
+// //     createCanvas(200,200);
+// //     noStroke();
 
-// }
+// // }
 
-// function draw(){
-//     background(220);
-//     fill(shapeColor);
-//     circle(width/2, height/2,100);
+// // function draw(){
+// //     background(220);
+// //     fill(shapeColor);
+// //     circle(width/2, height/2,100);
 
-// }
+// // }
 
-// function keyPressed(){
+// // function keyPressed(){
 
-//     if(keyCode===82){
-//         shapeColor = 'red';
+// //     if(keyCode===82){
+// //         shapeColor = 'red';
     
-//     }else if (keyCode===66){
-//         shapeColor = 'black';
-//     }else if (keyCode===71){
-//         shapeColor = 'green'
-//     }else if ()
+// //     }else if (keyCode===66){
+// //         shapeColor = 'black';
+// //     }else if (keyCode===71){
+// //         shapeColor = 'green'
+// //     }else if ()
+// // }
+
+// let shapeColor = 'yellow'; 
+
+// function setup() {
+//     createCanvas(600,600);
+//     background(220);
 // }
 
-let shapeColor = 'yellow'; 
+// function draw() {
+//     if(mouseX<100) {
+//         shapeColor = 'red';
+//     } else if (mouseX>=100 && mouseX<200) {
+//         shapeColor = 'green';
+//     } else {
+//         shapeColor = 'blue';
+//     }
 
-function setup() {
-    createCanvas(600,600);
-    background(220);
-}
+//     fill(shapeColor);
+//     circle(width/2,height/2,100)
+// }
 
-function draw() {
-    if(mouseX<100) {
-        shapeColor = 'red';
-    } else if (mouseX>=100 && mouseX<200) {
-        shapeColor = 'green';
-    } else {
-        shapeColor = 'blue';
-    }
-
-    fill(shapeColor);
-    circle(width/2,height/2,100)
-}

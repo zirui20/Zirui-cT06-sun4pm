@@ -28,7 +28,7 @@ function draw(){
 // circle(spacing + i*spacing, 200, 40);
 // rect(0,100, width, 400);
 // circle(width/2, height/2, 100);
-
+function draw(){
     let diameter = 50;
     let numCircles = 5; 
     let totalWidth = diameter * numCircles;
@@ -52,5 +52,9 @@ function draw(){
     }
 
 
+
 }
+
+
+
 
