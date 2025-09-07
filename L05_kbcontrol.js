@@ -199,8 +199,8 @@ function draw() {
     if (keyCode == 38) {
         shapeColor = 'red';
     }
-        if (keyCode == 40) {
-        shapeColor = 'red';
+    if (keyCode == 40) {
+        shapeColor = 'black';
     }
 
 
