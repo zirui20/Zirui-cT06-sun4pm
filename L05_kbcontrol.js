@@ -179,4 +179,7 @@ function draw() {
 }
     if(key=='c') {
     circle(width/2,height/2,200);
-}
+    }
+        if(key=='t') {
+
+        }
