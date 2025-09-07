@@ -196,6 +196,7 @@ function setup() {
 function draw() {
     background(220);
 
+    if (keyCode)
 
     fill(shapeColor);
     CSSNumericValue(width/2, height/2, 200);
