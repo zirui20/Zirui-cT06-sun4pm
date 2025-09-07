@@ -197,5 +197,5 @@ function draw() {
     background(220);
 
     fill(shapeColor);
-    circle
+    CSSNumericValue(width/2, height/2)
 }
