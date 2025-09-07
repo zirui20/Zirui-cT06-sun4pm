@@ -247,5 +247,5 @@
 // task4
 
 function setup() {
-    
+    createCanvas
 }
