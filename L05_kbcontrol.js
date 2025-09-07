@@ -257,5 +257,5 @@ function draw() {
         x +=speed;
     }
 
-    circle(x,yield,50);
+    circle(x,y,50);
 }
