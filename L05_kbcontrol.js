@@ -184,7 +184,8 @@ function draw() {
         triangle()
     }
     if(key=='s') {
-        
+        square()
+        React()
     }
 
 }
