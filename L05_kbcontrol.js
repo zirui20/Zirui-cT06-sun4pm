@@ -171,22 +171,26 @@
 
 
 // task1:shape drawer
-function setup() {
-    createCanvas(600,600);
-}
-function draw() {
-    background(220);
+// function setup() {
+//     createCanvas(600,600);
+// }
+// function draw() {
+//     background(220);
     
-    if(key=='c') {
-        circle(width/2, height/2 ,200);
-    }
-    if(key=='t') {
-        triangle(width/2 ,height/2 - 100, width/2 - 100, height/2 + 100, width/2 + 100, height/2 + 100);
-    }
-    if(key=='s') {
-        square(width/2 - 100, height/2 - 100, 200);
+//     if(key=='c') {
+//         circle(width/2, height/2 ,200);
+//     }
+//     if(key=='t') {
+//         triangle(width/2 ,height/2 - 100, width/2 - 100, height/2 + 100, width/2 + 100, height/2 + 100);
+//     }
+//     if(key=='s') {
+//         square(width/2 - 100, height/2 - 100, 200);
     
-    }
+//     }
+
+// }
+
+
+function keyPressed() {
 
 }
-
