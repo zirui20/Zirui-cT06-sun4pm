@@ -226,7 +226,7 @@ function draw() {
     if (key == 'w') {
         shapeColor = 'white';
     }
-    if (key == 40) {
+    if (key == 'r') {
         shapeColor = 'black';
     }
 
