@@ -190,25 +190,25 @@
 
 // }
 
-let shapeColor = 'blue'
-function setup() {
-    createCanvas(400,400);
-}
+// let shapeColor = 'blue'
+// function setup() {
+//     createCanvas(400,400);
+// }
 
-function draw() {
-    background(220);
+// function draw() {
+//     background(220);
 
-    if (keyCode == 38) {
-        shapeColor = 'red';
-    }
-    if (keyCode == 40) {
-        shapeColor = 'black';
-    }
+//     if (keyCode == 38) {
+//         shapeColor = 'red';
+//     }
+//     if (keyCode == 40) {
+//         shapeColor = 'black';
+//     }
 
 
-    fill(shapeColor);
-    circle(width/2, height/2, 200);
-}
+//     fill(shapeColor);
+//     circle(width/2, height/2, 200);
+// }
 
 
 ///////////////////////////////////////////////////////////////////////////
