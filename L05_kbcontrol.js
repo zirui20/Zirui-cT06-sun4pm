@@ -172,5 +172,5 @@
 
 // task1:shape drawer
 function setup() {
-    createC
+    createCanvas(200,200);
 }
