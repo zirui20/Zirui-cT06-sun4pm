@@ -193,5 +193,5 @@
 
 function keyPressed() {
     console.log("key:", key);
-    console.log("keyCode: ")
+    console.log("keyCode: ", keyCode);
 }
