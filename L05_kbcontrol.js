@@ -199,6 +199,10 @@ function draw() {
     if (keyCode == 38) {
         shapeColor = 'red';
     }
+        if (keyCode == 40) {
+        shapeColor = 'red';
+    }
+
 
     fill(shapeColor);
     CSSNumericValue(width/2, height/2, 200);
