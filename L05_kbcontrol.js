@@ -185,7 +185,7 @@ function draw() {
     }
     if(key=='s') {
         square(width/2 - 100,height/2 - 100,200)
-        rect()
+    
     }
 
 }
