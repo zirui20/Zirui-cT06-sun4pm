@@ -176,5 +176,5 @@ function setup() {
     background(200);
 }
 function draw() {
-
+    background(220)
 }
