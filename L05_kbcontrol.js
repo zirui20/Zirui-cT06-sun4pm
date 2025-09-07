@@ -230,7 +230,10 @@ function draw() {
         shapeColor = 'red';
     }
     if (key == 'g') {
-        shapeColor = 'black';
+        shapeColor = 'green';
+    }
+    else {
+        shape
     }
 
 
