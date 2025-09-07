@@ -226,10 +226,10 @@ function draw() {
     if (key == 'w') {
         shapeColor = 'white';
     }
-    else if (key == 'e') {
+    else if (key == 'r') {
         shapeColor = 'red';
     }
-    if (key == 'g') {
+    else if (key == 'g') {
         shapeColor = 'green';
     }
     else {
