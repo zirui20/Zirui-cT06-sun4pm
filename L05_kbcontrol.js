@@ -171,3 +171,6 @@
 
 
 // task1:shape drawer
+function setup() {
+    createC
+}
