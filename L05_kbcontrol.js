@@ -253,8 +253,7 @@ function setup() {
 function draw() {
     background(220);
 
-    let x = width/2;
-    let y = height/2;
-
-    circle(x,y,50);
+    if(keyIsDown(RIGHT_ARROW)) {
+        x +=speed;
+    }
 }
