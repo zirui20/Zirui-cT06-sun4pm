@@ -190,6 +190,6 @@
 
 // }
 function setup() {
-    
+    createanvas
 }
 
