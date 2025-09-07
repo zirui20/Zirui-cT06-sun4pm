@@ -181,7 +181,7 @@ function draw() {
         circle(width/2,height/2,200);
     }
     if(key=='t') {
-        triangle(300, 100, 150, 400, 450, 400)
+        triangle(width/2,height/2 - 1)
     }
     if(key=='s') {
         square(width/2 - 100,height/2 - 100,200)
