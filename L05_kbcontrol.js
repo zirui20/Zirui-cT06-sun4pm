@@ -192,5 +192,6 @@
 
 
 function keyPressed() {
-    console.log("key:", key)
+    console.log("key:", key);
+    conso
 }
