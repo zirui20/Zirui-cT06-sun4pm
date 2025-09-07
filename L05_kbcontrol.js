@@ -226,7 +226,7 @@ function draw() {
     if (key == 'w') {
         shapeColor = 'white';
     }
-    if (key == 'r') {
+    else if (key == 'e') {
         shapeColor = 'red';
     }
     if (key == 'g') {
