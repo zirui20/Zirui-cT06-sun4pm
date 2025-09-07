@@ -183,5 +183,8 @@ function draw() {
     if(key=='t') {
         triangle()
     }
+    if(key=='s') {
+        
+    }
 
 }
