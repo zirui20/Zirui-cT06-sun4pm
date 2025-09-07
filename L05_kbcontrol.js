@@ -233,7 +233,7 @@ function draw() {
         shapeColor = 'green';
     }
     else {
-        shape
+        shapeColor= 'yellow';
     }
 
 
