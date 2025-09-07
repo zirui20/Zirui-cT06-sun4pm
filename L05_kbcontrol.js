@@ -227,8 +227,12 @@ function draw() {
         shapeColor = 'white';
     }
     if (key == 'r') {
+        shapeColor = 'red';
+    }
+        if (key == 'r') {
         shapeColor = 'black';
     }
+
 
 
     fill(shapeColor);
