@@ -229,7 +229,7 @@ function draw() {
     if (key == 'r') {
         shapeColor = 'red';
     }
-        if (key == 'r') {
+    if (key == 'g') {
         shapeColor = 'black';
     }
 
