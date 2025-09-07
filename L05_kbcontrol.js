@@ -184,7 +184,7 @@ function draw() {
         triangle(width/2 ,height/2 - 100, width/2 - 100, height/2 + 100, width/2 + 100, height/2 + 100);
     }
     if(key=='s') {
-        square(width/2 - 100,height/2 - 100, 200);
+        square(width/2 - 100, height/2 - 100, 200);
     
     }
 
