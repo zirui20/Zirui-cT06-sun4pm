@@ -254,4 +254,5 @@ function draw() {
     background(220);
 
     let x = width/2;
+    let y = height/2;
 }
