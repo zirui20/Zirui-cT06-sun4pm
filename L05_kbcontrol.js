@@ -257,7 +257,7 @@ function draw() {
         x +=speed;
     }
     if(keyIsDown(LEFT_ARROW)) {
-        x +=speed;
+        x -=speed;
     }
 
     circle(x,y,50);
