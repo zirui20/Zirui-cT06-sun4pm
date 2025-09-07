@@ -255,4 +255,6 @@ function draw() {
 
     let x = width/2;
     let y = height/2;
+
+    CSSNumericValue(x,y,50);
 }
