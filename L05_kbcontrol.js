@@ -246,7 +246,8 @@
 
 // task4
 
-let x =
+let x = 300;
+let y = 300;
 
 function setup() {
     createCanvas(600,600);
