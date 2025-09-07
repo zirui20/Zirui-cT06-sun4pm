@@ -185,7 +185,7 @@ function draw() {
     }
     if(key=='s') {
         square()
-        React()
+        rect()
     }
 
 }
