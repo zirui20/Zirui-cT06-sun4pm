@@ -190,6 +190,6 @@
 
 // }
 function setup() {
-    createCanvas(40)
+    createCanvas(400,400)
 }
 
