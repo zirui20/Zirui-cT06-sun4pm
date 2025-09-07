@@ -172,7 +172,7 @@
 
 // task1:shape drawer
 function setup() {
-    createCanvas(500,500);
+    createCanvas(600,600);
 
 function draw() {
     background(220);
