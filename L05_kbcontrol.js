@@ -224,9 +224,9 @@ function draw() {
     background(220);
 
     if (key == 'w') {
-        shapeColor = 'red';
+        shapeColor = 'white';
     }
-    if (keyCode == 40) {
+    if (key == 40) {
         shapeColor = 'black';
     }
 
