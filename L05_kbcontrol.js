@@ -192,5 +192,5 @@
 
 
 function keyPressed() {
-    concole
+    console.log("key")
 }
