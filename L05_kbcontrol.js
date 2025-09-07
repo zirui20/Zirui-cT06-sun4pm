@@ -184,7 +184,7 @@ function draw() {
         triangle(300, 100, 150, 400, 450, 400)
     }
     if(key=='s') {
-        square()
+        square(width/2 - 100)
         rect()
     }
 
