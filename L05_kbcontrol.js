@@ -215,29 +215,29 @@
 
 // task3
 
-let shapeColor = 'blue'
-function setup() {
-    createCanvas(400,400);
-}
+// let shapeColor = 'blue'
+// function setup() {
+//     createCanvas(400,400);
+// }
 
-function draw() {
-    background(220);
+// function draw() {
+//     background(220);
 
-    if (key == 'w') {
-        shapeColor = 'white';
-    }
-    else if (key == 'r') {
-        shapeColor = 'red';
-    }
-    else if (key == 'g') {
-        shapeColor = 'green';
-    }
-    else {
-        shapeColor= 'yellow';
-    }
+//     if (key == 'w') {
+//         shapeColor = 'white';
+//     }
+//     else if (key == 'r') {
+//         shapeColor = 'red';
+//     }
+//     else if (key == 'g') {
+//         shapeColor = 'green';
+//     }
+//     else {
+//         shapeColor= 'yellow';
+//     }
 
 
 
-    fill(shapeColor);
-    circle(width/2, height/2, 200);
-}
+//     fill(shapeColor);
+//     circle(width/2, height/2, 200);
+// }
