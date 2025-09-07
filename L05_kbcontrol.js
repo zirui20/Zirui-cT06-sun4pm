@@ -253,6 +253,8 @@ function setup() {
 function draw() {
     background(220);
 
+    x = constrain
+
     if(keyIsDown(RIGHT_ARROW)) {
         x +=speed;
     }
