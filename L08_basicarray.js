@@ -1,2 +1,6 @@
 let img;
-let soundEffects
+let soundEffect;
+
+function preload() {
+    
+}
