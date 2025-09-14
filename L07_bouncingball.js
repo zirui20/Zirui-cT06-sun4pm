@@ -42,17 +42,17 @@ function draw() {
 
 }
 
-function keyPressed() {
-    if(keyCode == 32) {
-        imgWidth = 50;
-        soundEffect.play();    
-    }
-    if(key == 's') {
-        music.stop();
-    }
-}
+// function keyPressed() {
+//     if(keyCode == 32) {
+//         imgWidth = 50;
+//         soundEffect.play();    
+//     }
+//     if(key == 's') {
+//         music.stop();
+//     }
+// }
 
-function keyReleased() {
-    imgWidth =100;
-    soundEffect.pressed();
-}
+// function keyReleased() {
+//     imgWidth =100;
+//     soundEffect.pressed();
+// }
