@@ -29,4 +29,7 @@ function draw() {
     }
 
     image(img, 200, 200, imgWidth, imgHeight);
+
 }
+
+function keyPressed()
