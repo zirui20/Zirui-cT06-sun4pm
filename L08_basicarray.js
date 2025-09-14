@@ -40,5 +40,5 @@ function keyPressed() {
 }
 
 function keyReleased() {
-    imgWidth
+    imgWidth =100;
 }
