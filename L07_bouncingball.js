@@ -78,6 +78,8 @@ function setup() {
 function draw() {
     background(220);
 
+    if(x-size/2 <= )
+
     x += speedX;
     y += speedY;
 
