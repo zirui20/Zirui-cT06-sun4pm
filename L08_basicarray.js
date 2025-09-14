@@ -27,7 +27,11 @@ function draw() {
     }
     if(keyIsDown(LEFT_ARROW)) {
         x -=speed;
+    }if(keyIsDown(UP_ARROW)) {
+        y -=speed;
     }
+    if(keyIsDown(DOWN_ARROW)) {
+        y +=speed;
 
     image(img, 200, 200, imgWidth, imgHeight);
 
@@ -43,4 +47,5 @@ function keyPressed() {
 function keyReleased() {
     imgWidth =100;
     soundEffect.pause();
+}
 }
