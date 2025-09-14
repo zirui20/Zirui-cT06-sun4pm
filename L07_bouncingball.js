@@ -78,7 +78,7 @@ function setup() {
 function draw() {
     background(220);
 
-    if(x-size/2 <= )
+    if(x-size/2 <= 0 ||x> width )
 
     x += speedX;
     y += speedY;
