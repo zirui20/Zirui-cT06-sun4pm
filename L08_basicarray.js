@@ -1,1 +1,2 @@
-s here
+let img;
+let soundEffects
