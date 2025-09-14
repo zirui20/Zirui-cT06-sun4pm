@@ -1,7 +1,8 @@
 let img;
 let soundEffect;
 let imgWidth
-let
+let imgHeight
+
 
 function preload() {
     img = loadImage('assets/pico-a.png');
@@ -14,5 +15,5 @@ function setup() {
 
 function draw() {
     background('lightblue');
-    Image(img, 200, 200, )
+    Image(img, 200, 200, imgWi)
 }
