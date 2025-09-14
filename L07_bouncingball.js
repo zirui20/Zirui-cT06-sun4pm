@@ -38,8 +38,7 @@ function draw() {
 
     image(img, x, y, imgWidth, imgHeight); 
 
-}
-
+    }
 
 }
 
