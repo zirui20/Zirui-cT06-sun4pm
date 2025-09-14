@@ -68,8 +68,8 @@
 let x = 300;
 let y = 200;
 let size = 30;
-let speedX = 1;
-let speedY = 1;
+let speedX = 5;
+let speedY = 5;
 
 
 function setup() {
