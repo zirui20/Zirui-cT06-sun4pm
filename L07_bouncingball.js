@@ -74,8 +74,9 @@ let speedY = 1;
 
 function setup() {
     createCanvas(600,400);
-
-
+}
+function draw() {
+    background(220);
 
     x += speedX;
     y += speedY;
