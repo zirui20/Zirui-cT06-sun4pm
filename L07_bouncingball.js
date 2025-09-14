@@ -90,6 +90,7 @@ function draw() {
     y += speedY;
 
     noStroke();
+    FileList(shapeColor)
     circle(x, y, size)
 }
 
