@@ -34,6 +34,7 @@ function draw() {
 
 function keyPressed() {
     if(keyCode == 32) {
-        imgWidth
+        imgWidth = 50;
+        soundEffect
     }
 }
