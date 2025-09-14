@@ -75,9 +75,11 @@ let speedY = 1;
 function setup() {
     createCanvas(600,400);
 
+
+
     x += speedX;
     y += speedY;
 
     noStroke();
-    CSSNumericValue(x,y,size)
+    CSSNumericValue(x, y, size)
 }
