@@ -35,6 +35,5 @@ function draw() {
 function keyPressed() {
     if(keyCode == 32) {
         imgWidth = 50;
-        soundEffect
-    }
+        soundEffect.play();    }
 }
