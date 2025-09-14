@@ -26,7 +26,7 @@ function draw() {
     y = constrain(y, 0, height-imgHeight);
 
     if(keyIsDown(RIGHT_ARROW)) {
-        x +=speed;``
+        x +=speed;
     }
     if(keyIsDown(LEFT_ARROW)) {
         x -=speed;
