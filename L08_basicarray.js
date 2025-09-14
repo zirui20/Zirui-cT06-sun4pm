@@ -3,7 +3,8 @@ let soundEffect;
 let imgWidth = 50;
 let imgHeight = 50;
 let speed = 1;
-let x = 
+let x = 200;
+let y = 200;
 
 
 function preload() {
