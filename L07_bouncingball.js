@@ -39,7 +39,7 @@ function draw() {
     image(img, x, y, imgWidth, imgHeight); 
 
 }
-
+2
 
 function keyPressed() {
     if(keyCode == 32) {
