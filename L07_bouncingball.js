@@ -22,37 +22,36 @@ function setup() {
 function draw() {
     background('lightblue');
 
-    // x = constrain(x, 0, width-imgWidth);
-    // y = constrain(y, 0, height-imgHeight);
+    x = constrain(x, 0, width-imgWidth);
+    y = constrain(y, 0, height-imgHeight);
 
-    // if(keyIsDown(RIGHT_ARROW)) {
-    //     x +=speed;
-    // }
-    // if(keyIsDown(LEFT_ARROW)) {
-    //     x -=speed;
-    // }if(keyIsDown(UP_ARROW)) {
-    //     y -=speed;
-    // }
-    // if(keyIsDown(DOWN_ARROW)) {
-    //     y +=speed;
-
+    if(keyIsDown(RIGHT_ARROW)) {
+        x +=speed;
+    }
+    if(keyIsDown(LEFT_ARROW)) {
+        x -=speed;
+    }if(keyIsDown(UP_ARROW)) {
+        y -=speed;
+    }
+    if(keyIsDown(DOWN_ARROW)) {
+        y +=speed;
+    }
     image(img, x, y, imgWidth, imgHeight); 
 
 }
 
 
+function keyPressed() {
+    if(keyCode == 32) {
+        imgWidth = 50;
+        soundEffect.play();    
+    }
+    if(key == 's') {
+        music.stop();
+    }
+}
 
-// function keyPressed() {
-//     if(keyCode == 32) {
-//         imgWidth = 50;
-//         soundEffect.play();    
-//     }
-//     if(key == 's') {
-//         music.stop();
-//     }
-// }
-
-// function keyReleased() {
-//     imgWidth =100;
-//     soundEffect.pressed();
-// }
+function keyReleased() {
+    imgWidth =100;
+    soundEffect.pressed();
+}
