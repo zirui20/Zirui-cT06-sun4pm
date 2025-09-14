@@ -3,5 +3,5 @@ let soundEffect;
 
 function preload() {
     img = loadImage('assets/pico-a.png');
-    soundEffect = loadSound()
+    soundEffect = loadSound('assets/pop.mp3')
 }
