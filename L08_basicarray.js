@@ -12,5 +12,5 @@ function setup() {
 
 function draw() {
     background('lightblue');
-    Image()
+    Image(img, 200, 200, )
 }
