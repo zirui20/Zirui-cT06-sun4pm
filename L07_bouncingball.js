@@ -82,5 +82,5 @@ function draw() {
     y += speedY;
 
     noStroke();
-    CSSNumericValue(x, y, size)
+    circle(x, y, size)
 }
