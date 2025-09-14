@@ -3,7 +3,7 @@ let soundEffect;
 let music;
 let imgWidth = 100;
 let imgHeight = 100;
-let speed = 1;
+let speed = 50;
 let x = 200;
 let y = 200;
 
