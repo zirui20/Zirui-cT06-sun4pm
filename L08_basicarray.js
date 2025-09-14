@@ -20,7 +20,7 @@ function draw() {
     background('lightblue');
 
     x = constrain(x, 0, width-imgWidth);
-    y = constrain(x, 0, width-imgWidth);
+    y = constrain(y, 0, width-imgHeight);
 
     if(keyIsDown(RIGHT_ARROW)) {
         x +=speed;``
