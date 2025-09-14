@@ -67,8 +67,8 @@
 
 let x = 300;
 let y = 200;
-
-
+let size = 30;
+let
 function setup() {
     createCanvas(600,600)
 }
