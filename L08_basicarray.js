@@ -1,5 +1,6 @@
 let img;
 let soundEffect;
+let music;
 let imgWidth = 50;
 let imgHeight = 50;
 let speed = 1;
