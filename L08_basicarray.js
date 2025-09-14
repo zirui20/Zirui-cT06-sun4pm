@@ -1,6 +1,6 @@
 let img;
 let soundEffect;
-let imgWidth
+let imgWidth = 50;
 let imgHeight
 
 
