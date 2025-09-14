@@ -40,6 +40,9 @@ function draw() {
 
 }
 
+
+}
+
 function keyPressed() {
     if(keyCode == 32) {
         imgWidth = 50;
@@ -53,5 +56,4 @@ function keyPressed() {
 function keyReleased() {
     imgWidth =100;
     soundEffect.pressed();
-}
 }
