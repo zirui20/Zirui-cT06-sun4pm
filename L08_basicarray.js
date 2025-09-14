@@ -2,5 +2,6 @@ let img;
 let soundEffect;
 
 function preload() {
-    img = loadImage('')
+    img = loadImage('assets/pico-a.png');
+    soundEffect
 }
