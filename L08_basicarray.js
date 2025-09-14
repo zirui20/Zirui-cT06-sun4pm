@@ -36,7 +36,7 @@ function draw() {
     if(keyIsDown(DOWN_ARROW)) {
         y +=speed;
 
-    image(img, 200, 200, imgWidth, imgHeight);
+    image(img, x, y, imgWidth, imgHeight);
 
 }
 
