@@ -11,7 +11,7 @@ let y = 200;
 function preload() {
     img = loadImage('assets/pico-a.png');
     soundEffect = loadSound('assets/pop.mp3');
-    music 
+    music = loadSound()
 }
 
 function setup() {
@@ -43,6 +43,9 @@ function keyPressed() {
     if(keyCode == 32) {
         imgWidth = 50;
         soundEffect.play();    
+    }
+    if(key == 's') {
+        music.stop();
     }
 }
 
