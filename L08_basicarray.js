@@ -52,6 +52,6 @@ function keyPressed() {
 
 function keyReleased() {
     imgWidth =100;
-    soundEffect.pause();
+    soundEffect.pressed();
 }
 }
