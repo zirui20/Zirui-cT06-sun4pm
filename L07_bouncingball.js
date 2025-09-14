@@ -1,4 +1,4 @@
-let img;
+let img; 
 let soundEffect;
 let music;
 let imgWidth = 100;
@@ -36,7 +36,7 @@ function draw() {
     if(keyIsDown(DOWN_ARROW)) {
         y +=speed;
 
-    image(img, x, y, imgWidth, imgHeight);
+    image(img, x, y, imgWidth, imgHeight); 
 
 }
 
