@@ -257,7 +257,7 @@ function draw() {
     background(220);
 
     x = constrain(x, 25, width-25);
-    y = constrain(x, 25, width-25);
+    y = constrain(x, 25, height-25);
 
     if(keyIsDown(RIGHT_ARROW)) {
         x +=speed;
