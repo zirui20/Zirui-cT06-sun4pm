@@ -73,16 +73,16 @@ let speedY = 5;
 let shapeColor = 'blue'; 
 
 function setup() {
-    createCanvas(600,400);
+    createCanvas(600,600);
     background(220);
 }
 function draw() {
 
-    if (x-size/2 <= 0 ||x + size/2>= width) {
+    if (x-size/2 <= 0 || x + size/2>= width) {
         speedX *= -1;
         shapeColor = color(random(255), random(255), random(255));
     }
-    if (y-size/2 <= 0 ||y + size/2>= height) {
+    if (y-size/2 <= 0 || y + size/2>= height) {
         speedY *= -1;
         shapeColor = color(random(255), random(255), random(255));
     }
