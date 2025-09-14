@@ -79,4 +79,5 @@ function setup() {
     y += speedY;
 
     noStroke();
+    CSSNumericValue(x,y,size)
 }
