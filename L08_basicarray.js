@@ -18,5 +18,15 @@ function setup() {
 
 function draw() {
     background('lightblue');
+
+    x = constrain(x, 0, width-imgWidth);
+
+    if(keyIsDown(RIGHT_ARROW)) {
+        x +=speed;``
+    }
+    if(keyIsDown(LEFT_ARROW)) {
+        x -=speed;
+    }
+
     image(img, 200, 200, imgWidth, imgHeight);
 }
