@@ -1,8 +1,8 @@
 let img;
 let soundEffect;
 let music;
-let imgWidth = 50;
-let imgHeight = 50;
+let imgWidth = 100;
+let imgHeight = 100;
 let speed = 1;
 let x = 200;
 let y = 200;
