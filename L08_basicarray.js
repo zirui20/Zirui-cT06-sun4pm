@@ -1,7 +1,8 @@
 let img;
 let soundEffect;
 let imgWidth = 50;
-let imgHeight = 
+let imgHeight = 50;
+let speed
 
 
 function preload() {
