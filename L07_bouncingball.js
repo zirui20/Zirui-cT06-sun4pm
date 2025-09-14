@@ -1,4 +1,4 @@
-task1
+// task1
 
 
 // let img; 
@@ -58,3 +58,9 @@ task1
 //     imgWidth =100;
 //     soundEffect.pressed();
 // }
+
+
+
+
+
+task2
