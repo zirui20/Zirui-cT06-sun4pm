@@ -77,4 +77,6 @@ function setup() {
 
     x += speedX;
     y += speedY;
+
+    noStorke
 }
