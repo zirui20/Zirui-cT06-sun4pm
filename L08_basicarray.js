@@ -38,3 +38,7 @@ function keyPressed() {
         soundEffect.play();    
     }
 }
+
+function keyReleased() {
+    imgWidth
+}
