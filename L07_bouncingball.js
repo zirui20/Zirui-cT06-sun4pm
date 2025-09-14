@@ -80,6 +80,7 @@ function draw() {
 
     if (x-size/2 <= 0 ||x + size/2>= width) {
         speedX *= -1;
+        shapeColor = color(random)
     }
     if (y-size/2 <= 0 ||y + size/2>= height) {
         speedY *= -1;
