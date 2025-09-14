@@ -65,8 +65,9 @@
 
 // task2
 
-let x;
-let y;
+let x = 300;
+let y = 200;
+
 
 function setup() {
     createCanvas(600,600)
