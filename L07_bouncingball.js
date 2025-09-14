@@ -83,11 +83,11 @@ function draw() {
     }
     if (y-size/2 <= 0 ||y + size/2>= height) {
         speedY *= -1;
-
+    }
     x += speedX;
     y += speedY;
 
     noStroke();
     circle(x, y, size)
 }
-}
+
