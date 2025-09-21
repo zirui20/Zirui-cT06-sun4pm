@@ -12,17 +12,24 @@ function setup() {
 function draw() {
     background(220);
 
-    if(y <= 0 || x >= height - size) {
+
+    if(x <= 0 || x >= width - size) {
         speedX *= -1;
+        shapeColor = color(random(225), random(225), random(225));
+
+    if(y <= 0 || y >= height - size) {
+        speedY *= -1;
         shapeColor = color(random(225), random(225), random(225));
     }
 
     x += speedX;
+    y += speedY
 
     noStroke();
     fill(shapeColor);
     rect(x,y,size,size)
 
+}
 }
 
 
