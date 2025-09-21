@@ -45,7 +45,8 @@ function setup() {
 }
 
 function text() {
-    zr(50,50)
+    zr(50,50);
+    iam
 }
 
 
