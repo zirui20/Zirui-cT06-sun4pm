@@ -68,7 +68,7 @@ function setup() {
         textAlign(LEFT,CENTER);
 
         textSize(24);
-         text("my favourite food is ;")
+         text("my favourite food is :", 50, 50)
 }
 
 
