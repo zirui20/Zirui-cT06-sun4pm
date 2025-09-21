@@ -14,6 +14,9 @@ function draw() {
         speedX *= -1;
         shapeColor = color(random(225), random(225), random(225));
     }
+
+    x +=
+
 }
 
 
