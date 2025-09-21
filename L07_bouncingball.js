@@ -73,7 +73,7 @@ let speedY = 5;
 let shapeColor = 'blue'; 
 
 function setup() {
-    createCanvas(300,300);
+    createCanvas(1000,1000);
     background(220);
 }
 function draw() {
