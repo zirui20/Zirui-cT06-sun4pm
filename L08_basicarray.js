@@ -49,10 +49,12 @@ function setup() {
      textSize(24);
 
     text("my age is 80", 50,100);
-    fill(167,0,0)
+    fill(167,0,0);
+     textSize(24);
 
     text("i love to do nothing", 50,150);
-    fill(167,0,0)
+    fill(134,0,0);
+     textSize(24);
 }
 
 
