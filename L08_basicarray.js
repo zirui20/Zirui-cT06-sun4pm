@@ -38,7 +38,9 @@
 
 
 
-
+function setup() {
+    createCanvas
+}
 
 
 
