@@ -11,7 +11,8 @@ function draw() {
     background(220);
 
     if(x <= 0 || x >= width - size) {
-        speedX *= -1
+        speedX *= -1;
+        shapeColor = 
     }
 }
 
