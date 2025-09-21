@@ -60,7 +60,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 
-let food = ["tacos","quesadilla","cookies"];
+let food = ["tacos", "quesadilla", "cookies"];
 
 function setup() {
         createCanvas(600,400);
