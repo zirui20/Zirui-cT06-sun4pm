@@ -60,7 +60,11 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 
-let food = [tacos,quesadilla,]
+let food = [tacos,quesadilla,cookies];
+
+function setup() {
+    
+}
 
 
 
