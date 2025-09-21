@@ -48,9 +48,6 @@ function setup() {
     text("i love to do nothing", 50,150)
 }
 
-function text() {
-
-}
 
 
 
