@@ -45,7 +45,7 @@ function setup() {
 }
 
 function text() {
-    text("zr")
+    
 }
 
 
