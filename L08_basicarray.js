@@ -1,1 +1,3 @@
-func
+function setup() {
+    createCanvas
+}
