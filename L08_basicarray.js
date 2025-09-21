@@ -42,7 +42,7 @@ function setup() {
     createCanvas(400,400);
     background(220);
     textSize(24);
-    fill(255,0,0)
+    fill(134,0,0)
 
     text("my name is zr", 50,50);
     text("my age is 80", 50,100)
