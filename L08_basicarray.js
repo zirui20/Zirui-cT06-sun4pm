@@ -41,12 +41,11 @@
 function setup() {
     createCanvas(400,400);
     background(220);
-    textSize(50)
 
 }
 
 function text() {
-    zr()
+    zr(50,50)
 }
 
 
