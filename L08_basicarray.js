@@ -60,7 +60,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 
-let food = [tacos,quesadilla,cookies];
+let food = ["tacos","quesadilla","cookies"];
 
 function setup() {
         createCanvas(600,400);
@@ -68,7 +68,12 @@ function setup() {
         textAlign(LEFT,CENTER);
 
         textSize(24);
-         text("my favourite food is :", 50, 50)
+         text("my favourite food is :", 50, 50);
+
+         for(let i=0; 1<food.length; i++) {
+             text((i+1) + "." + favFoods[1],50,80 + 1*30);
+         }
+           
 }
 
 
