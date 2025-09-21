@@ -45,7 +45,7 @@ function setup() {
 
     text("my name is zr", 50,50);
     text("my age is 80", 50,100)
-    text("my age is 80", 50,100)
+    text("i love to do nothinf", 50,100)
 }
 
 function text() {
