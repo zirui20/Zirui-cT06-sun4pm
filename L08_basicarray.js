@@ -45,7 +45,9 @@ function setup() {
     fill(167,0,0)
 
     text("my name is zr", 50,50);
-    text("my age is 80", 50,100)
+    fill(167,0,0)
+
+    text("my age is 80", 50,100);
     text("i love to do nothing", 50,150)
 }
 
