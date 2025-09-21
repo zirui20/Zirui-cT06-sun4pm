@@ -71,7 +71,7 @@ function setup() {
          text("my favourite foods are :", 50, 50);
 
          for(let i=0; i<food.length; i++) {
-             text((i+1) + "." + food[1],50,80 + 1*30);
+             text((i+1) + "." + food[1],50,80 + i*30);
          }
            
 }
