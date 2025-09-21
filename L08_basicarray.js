@@ -17,7 +17,7 @@ function draw() {
 
     x += speedX;
 
-    noStrokw
+    noStroke();
 
 }
 
