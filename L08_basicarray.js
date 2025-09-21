@@ -4,5 +4,31 @@ let speedX = 5;
 let shapeColor = 'blue'
 
 function setup() {
-    createCanvas
+    createCanvas(400,400)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
