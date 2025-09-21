@@ -15,7 +15,9 @@ function draw() {
         shapeColor = color(random(225), random(225), random(225));
     }
 
-    x +=
+    x += speedX;
+
+    noStrokw
 
 }
 
