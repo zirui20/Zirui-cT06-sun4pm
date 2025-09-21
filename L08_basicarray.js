@@ -45,7 +45,7 @@ function setup() {
     fill(167,0,0)
 
     text("my name is zr", 50,50);
-    fill(,0,0);
+    fill(34,345,0);
      textSize(24);
 
     text("my age is 80", 50,100);
