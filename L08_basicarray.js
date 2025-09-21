@@ -18,7 +18,8 @@ function draw() {
     x += speedX;
 
     noStroke();
-    FileList(shapeColor);
+    fi(shapeColor);
+    rect
 
 }
 
