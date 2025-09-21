@@ -67,7 +67,7 @@ function setup() {
         background(220);
         textAlign(CENTER,CENTER);
 
-        
+        textSize
 }
 
 
