@@ -12,7 +12,7 @@ function setup() {
 function draw() {
     background(220);
 
-    if(x <= 0 || x >= width - size) {
+    if(y <= 0 || x >= width - size) {
         speedX *= -1;
         shapeColor = color(random(225), random(225), random(225));
     }
