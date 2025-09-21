@@ -11,7 +11,7 @@ function draw() {
     background(220);
 
     if(x <= 0 || x >= width - size) {
-        speed
+        speedX *= -1
     }
 }
 
