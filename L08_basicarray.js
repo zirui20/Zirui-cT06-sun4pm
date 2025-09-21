@@ -70,7 +70,7 @@ function setup() {
         textSize(24);
          text("my favourite foods are :", 50, 50);
 
-         for(let i=0; 1<food.length; i++) {
+         for(let i=0; i<food.length; i++) {
              text((i+1) + "." + favFoods[1],50,80 + 1*30);
          }
            
