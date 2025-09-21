@@ -27,7 +27,7 @@ function draw() {
 
     noStroke();
     fill(shapeColor);
-    rect(x,y,size,size)
+    rect(x,y,size,size);
 
 
 }
