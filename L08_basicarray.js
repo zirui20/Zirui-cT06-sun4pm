@@ -41,6 +41,7 @@
 function setup() {
     createCanvas(400,400);
     Text(hi(50,50))
+
 }
 
 
