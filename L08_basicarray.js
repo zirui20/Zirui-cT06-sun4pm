@@ -43,7 +43,7 @@ function setup() {
     background(220);
     textSize(24);
 
-    text()
+    text("my name is zr")
 
 }
 
