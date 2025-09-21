@@ -12,7 +12,7 @@ function draw() {
 
     if(x <= 0 || x >= width - size) {
         speedX *= -1;
-        shapeColor = 
+        shapeColor = color(random(225))
     }
 }
 
