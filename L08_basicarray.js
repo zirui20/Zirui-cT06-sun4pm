@@ -38,24 +38,27 @@
 
 
 
-function setup() {
-    createCanvas(400,400);
-    background(220);
-    textSize(24);
-    fill(167,0,0)
+// function setup() {
+//     createCanvas(400,400);
+//     background(220);
+//     textSize(24);
+//     fill(167,0,0)
 
-    text("my name is zr", 50,50);
-    fill(34,345,345);
-     textSize(24);
+//     text("my name is zr", 50,50);
+//     fill(34,345,345);
+//      textSize(24);
 
-    text("my age is 80", 50,100);
-    fill(135,0,0);
-     textSize(24);
+//     text("my age is 80", 50,100);
+//     fill(135,0,0);
+//      textSize(24);
 
-    text("i love to do nothing", 50,150);
-    fill(134,0,0);
-     textSize(24);
-}
+//     text("i love to do nothing", 50,150);
+//     fill(134,0,0);
+//      textSize(24);
+// }
+
+
+///////////////////////////////////////////////////////////////////////////////
 
 
 
