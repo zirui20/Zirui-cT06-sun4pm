@@ -41,7 +41,9 @@
 function setup() {
     createCanvas(400,400);
     background(220);
-    textSize
+    textSize(24);
+
+    text()
 
 }
 
