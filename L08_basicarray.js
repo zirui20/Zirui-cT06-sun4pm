@@ -18,8 +18,8 @@ function draw() {
     x += speedX;
 
     noStroke();
-    fi(shapeColor);
-    rect
+    fill(shapeColor);
+    rect(x,)
 
 }
 
