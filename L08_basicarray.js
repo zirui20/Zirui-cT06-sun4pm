@@ -23,7 +23,7 @@ function draw() {
     }
 
     x += speedX;
-    y += speedY
+    y += speedY;
 
     noStroke();
     fill(shapeColor);
