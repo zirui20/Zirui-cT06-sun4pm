@@ -29,6 +29,8 @@ function draw(){
 
 function draw() {
     textSize(20);
+    text(displayText1, 230/2,520/2);
+     text(displayText2, 230/2,600/2);
 }
 
 function updateText() {
