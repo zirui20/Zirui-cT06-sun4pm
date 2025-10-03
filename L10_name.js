@@ -11,5 +11,6 @@ function draw(){
     fill("black");
     textSize(24);
     textAlign(CENTER,CENTER);
-    text(displayText, /2 ,height/2);
+    
+    text(displayText, width/2 ,height/2);
 }
