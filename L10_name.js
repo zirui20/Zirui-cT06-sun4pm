@@ -8,7 +8,7 @@ function setup() {
     createCanvas(600,400);
 
     displayText = "your name";
-    displayText
+    displayText = "your age";
     displayName = "enter your name:";
     displayAge = "enter your age:"
 
