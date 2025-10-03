@@ -28,7 +28,7 @@ function draw(){
 }
 
 function draw() {
-    
+    textSize(20);
 }
 
 function updateText() {
