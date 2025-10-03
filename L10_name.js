@@ -15,6 +15,8 @@ function setup() {
     inputName = createInput();
     inputName.position(220, height - 130);
     inputName.input(updateName);
+    input
+    
 }
 
 function draw(){
