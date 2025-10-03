@@ -7,6 +7,7 @@ function setup() {
 
     displayText = "hello world";
     displayText1 = "enter your name:";
+    
 
     inputText = createInput();
     inputText.position(220, height - 150);
