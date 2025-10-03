@@ -4,7 +4,6 @@ let displayAge;
 let inputName;
 let inputAge;
 
-
 function setup() {
     createCanvas(600,400);
 
@@ -16,7 +15,7 @@ function setup() {
     inputName.position(220, height - 130);
     inputName.input(updateName);
     
-    inputAge
+    inputAge = create
     
 }
 
