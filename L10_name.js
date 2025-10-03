@@ -8,4 +8,6 @@ function setup() {
 
 function draw(){
     background('lightblue');
+
+    Text(displayText)
 }
