@@ -22,7 +22,7 @@ function draw(){
     textSize(24);
     textAlign(CENTER,CENTER);
 
-    text(displayText, width/2 ,400/2);
+    text(displayText, width/2 ,200/2);
     text(displayText1, 230/2,520/2);
     text(displayText2, 230/2,600/2)
 }
