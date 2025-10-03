@@ -7,7 +7,7 @@ function setup() {
     displayText = "hello world";
 
     inputText = createInput();
-    inputText.position(230, height - 100);
+    inputText.position(224, height - 100);
 }
 
 function draw(){
