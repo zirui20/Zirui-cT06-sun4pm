@@ -24,7 +24,7 @@ function draw(){
 
     text(displayText, width/2 ,height/2);
     text(displayText1, 230/2,520/2);
-    text(displayText2, 230/2,520/2)
+    text(displayText2, 280/2,520/2)
 }
 
 function updateText() {
