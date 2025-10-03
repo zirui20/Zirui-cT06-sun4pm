@@ -36,6 +36,6 @@ function draw() {
      text(displayText2, 130/2,650/2);
 }
 
-function updateText() {
-    displayText = this.value();
+function updateName() {
+    displayName = this.value();
 }
