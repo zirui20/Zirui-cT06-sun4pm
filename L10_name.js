@@ -32,8 +32,8 @@ function draw(){
 function draw() {
      background('lightblue');
     textSize(20);
-     text(displayText1, 130/2,570/2);
-     text(displayText2, 130/2,650/2);
+     text(displayName, 130/2,570/2);
+     text(displayAge, 130/2,650/2);
 }
 
 function updateName() {
