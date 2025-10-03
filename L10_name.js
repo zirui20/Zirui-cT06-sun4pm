@@ -7,7 +7,7 @@ function setup() {
 
     displayText = "hello world";
     displayText1 = "enter your name:";
-    displayText2 = 
+    displayText2 = "enter your age"
 
     inputText = createInput();
     inputText.position(220, height - 150);
