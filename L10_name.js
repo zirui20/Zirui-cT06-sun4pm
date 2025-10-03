@@ -9,6 +9,7 @@ function setup() {
 function draw(){
     background('lightblue');
     fill("black");
-    textSize
+    textSize(24);
+    textAllign()
     text(displayText, 30/2 ,height/2);
 }
