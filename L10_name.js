@@ -14,9 +14,6 @@ function setup() {
 
     inputName = createInput();
     inputName.position(220, height - 130);
-    
-
-
     inputName.input(updateName);
 }
 
@@ -26,7 +23,7 @@ function draw(){
     textSize(24);
     textAlign(CENTER,CENTER);
 
-    text(displayName, width/2 ,200/2);
+    text(displayText, width/2 ,200/2);
 
 }
 
