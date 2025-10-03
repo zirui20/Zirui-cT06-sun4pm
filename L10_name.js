@@ -40,3 +40,7 @@ function draw() {
 function updateName() {
     displayName = this.value();
 }
+
+function updateAge() {
+    displayName = this.value();
+}
