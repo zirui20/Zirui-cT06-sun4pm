@@ -8,7 +8,6 @@ function setup() {
 
 function draw(){
     background('lightblue');
-    FileList()
-
+    fill("black");
     text(displayText, 30/2 ,height/2);
 }
