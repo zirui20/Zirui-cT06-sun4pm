@@ -3,7 +3,7 @@ let ctime; // will hold the current hour, minute and second
 
 let interval; // reference to the timer
 let countdown; // number to count
-let alaram
+let alarm
 
 function preload() {
 
