@@ -5,6 +5,8 @@ let interval; // reference to the timer
 let countdown; // number to count
 
 
+
+
 function setup(){
     createCanvas(600,400);
 
