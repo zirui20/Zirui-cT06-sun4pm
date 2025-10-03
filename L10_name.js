@@ -6,7 +6,7 @@ function setup() {
 
     displayText = "hello world";
 
-    inputText
+    inputText = create
 }
 
 function draw(){
