@@ -8,7 +8,7 @@ function setup() {
 
 function draw(){
     background('lightblue');
-    
+    FileList()
 
     text(displayText, 30/2 ,height/2);
 }
