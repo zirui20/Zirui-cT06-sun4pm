@@ -21,5 +21,5 @@ function draw(){
 }
 
 function updateText() {
-    displayText = th
+    displayText = this.value();
 }
