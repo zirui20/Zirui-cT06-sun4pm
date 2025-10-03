@@ -27,6 +27,7 @@ function draw(){
 }
 
 function draw() {
+     background('lightblue');
     textSize(20);
      text(displayText1, 230/2,520/2);
      text(displayText2, 230/2,600/2);
