@@ -9,5 +9,6 @@ function setup() {
 function draw(){
     background('lightblue');
     fill("black");
+    textSize
     text(displayText, 30/2 ,height/2);
 }
