@@ -16,6 +16,7 @@ function draw(){
     background('lightblue');
     fill("black");
     textSize(24);
+    textSize(10);
     textAlign(CENTER,CENTER);
 
     text(displayText, width/2 ,height/2);
