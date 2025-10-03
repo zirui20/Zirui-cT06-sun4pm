@@ -6,7 +6,7 @@ let countdown; // number to count
 let alarm;
 
 function preload() {
-    alarm = loadSound()
+    alarm = loadSound('')
 }
 
 
