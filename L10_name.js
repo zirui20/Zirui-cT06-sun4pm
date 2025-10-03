@@ -1,6 +1,7 @@
 let displayName;
 let displayAge;
-let inputText;
+let inputName;
+let inputAge;
 
 
 function setup() {
