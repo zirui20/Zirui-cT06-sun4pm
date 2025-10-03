@@ -5,7 +5,7 @@ let inputText;
 function setup() {
     createCanvas(600,400);
 
-    displayText = "hello world";
+    displayText = "your name";
     displayText1 = "enter your name:";
     displayText2 = "enter your age:"
 
