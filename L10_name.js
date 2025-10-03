@@ -29,8 +29,8 @@ function draw(){
 function draw() {
      background('lightblue');
     textSize(20);
-     text(displayText1, 200/2,520/2);
-     text(displayText2, 290/2,600/2);
+     text(displayText1, 150/2,520/2);
+     text(displayText2, 150/2,600/2);
 }
 
 function updateText() {
