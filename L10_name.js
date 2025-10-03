@@ -1,5 +1,6 @@
 let displayName;
 let displayAge;
+
 let inputName;
 let inputAge;
 
@@ -11,11 +12,11 @@ function setup() {
     displayName = "enter your name:";
     displayAge = "enter your age:"
 
-    inputText = createInput();
-    inputText.position(220, height - 150);
+    inputName = createInput();
+    inputName.position(220, height - 150);
 
 
-    inputText.input(updateText);
+    inputName.input(updateText);
 }
 
 function draw(){
