@@ -7,7 +7,7 @@ let alarm;
 
 function preload() {
     alarm = loadSound('assets/Lose.mp3')
-    alarm.play
+    alarm.play()
 }
 
 function setup(){
