@@ -6,9 +6,8 @@ let countdown; // number to count
 let alarm;
 
 function preload() {
-    alarm = loadSound('https://prod.liveshare.vsengsaas.visualstudio.com/join?540A8A50150FA055E04C8E943A859C1AB8E1')
+    alarm = loadSound('assets/Lose.mp3')
 }
-
 
 function setup(){
     createCanvas(600,400);
