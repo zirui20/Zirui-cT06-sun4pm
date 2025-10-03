@@ -13,7 +13,7 @@ function setup() {
     displayAge = "enter your age:"
 
     inputName = createInput();
-    inputName.position(220, height - 150);
+    inputName.position(220, height - 120);
 
 
     inputName.input(updateName);
