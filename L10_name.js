@@ -42,5 +42,5 @@ function updateName() {
 }
 
 function updateAge() {
-    displayName = this.value();
+    displayAge = this.value();
 }
