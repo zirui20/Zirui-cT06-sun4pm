@@ -10,6 +10,6 @@ function draw(){
     background('lightblue');
     fill("black");
     textSize(24);
-    textAllign(300,300);
+    textAlign(CENTER,300);
     text(displayText, 30/2 ,height/2);
 }
