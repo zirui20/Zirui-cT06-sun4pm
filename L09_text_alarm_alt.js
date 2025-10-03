@@ -7,7 +7,6 @@ let alarm;
 
 function preload() {
     alarm = loadSound('assets/Lose.mp3')
-    alarm.play()
 }
 
 function setup(){
@@ -50,7 +49,7 @@ function updateCountdown(){
     else{
         // stop the timer
         clearInterval(interval);
-
+        alarm.play();
     }
     
 }
