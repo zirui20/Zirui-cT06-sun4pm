@@ -20,12 +20,15 @@ function draw(){
     background('lightblue');
     fill("black");
     textSize(24);
-    textSize(20);
     textAlign(CENTER,CENTER);
 
     text(displayText, width/2 ,200/2);
     text(displayText1, 230/2,520/2);
     text(displayText2, 230/2,600/2);
+}
+
+function draw() {
+    
 }
 
 function updateText() {
