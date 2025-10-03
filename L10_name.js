@@ -15,7 +15,7 @@ function setup() {
     inputName.position(220, height - 130);
     inputName.input(updateName);
     
-    inputAge = create
+    inputAge = createInput
     
 }
 
