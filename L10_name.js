@@ -1,4 +1,5 @@
 let displayText;
+let inputText;
 
 function setup() {
     createCanvas(600,400);
@@ -11,6 +12,6 @@ function draw(){
     fill("black");
     textSize(24);
     textAlign(CENTER,CENTER);
-    
+
     text(displayText, width/2 ,height/2);
 }
