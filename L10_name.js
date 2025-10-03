@@ -27,6 +27,7 @@ function draw(){
     textAlign(CENTER,CENTER);
 
     text(displayText, width/2 ,200/2);
+        text(displayText, width/2 ,200/2);
 
 }
 
