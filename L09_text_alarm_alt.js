@@ -30,3 +30,22 @@ function draw(){
     // display the count down
     text(countdown, width/2, height/2 + 100);
 }
+
+
+function mousePressed(){
+    // start the timer...
+    interval = setInterval(updateCountdown, 1000); 
+}
+
+function updateCountdown(){
+    // increase the value of countdown variable.
+    if (countdown > 0){
+        countdown = countdown - 1;
+    }
+    else{
+        // stop the timer
+        clearInterval(interval);
+
+    }
+    
+}
