@@ -9,5 +9,5 @@ function setup() {
 function draw(){
     background('lightblue');
 
-    Text(displayText)
+    Text(displayText, wdith/2,height/2)
 }
