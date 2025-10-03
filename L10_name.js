@@ -8,7 +8,7 @@ function setup() {
 
     inputText = createInput();
     inputText.position(223, height - 100);
-    inputText.input();
+    inputText.input(updateText);
 }
 
 function draw(){
