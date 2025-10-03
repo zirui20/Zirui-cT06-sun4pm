@@ -19,7 +19,7 @@ function draw(){
     textAlign(CENTER,CENTER);
 
     text(displayText, width/2 ,height/2);
-    text(displayText1, )
+    text(displayText1, 100/2,height/2)
 }
 
 function updateText() {
