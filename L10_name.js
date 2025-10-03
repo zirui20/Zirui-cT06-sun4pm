@@ -19,3 +19,7 @@ function draw(){
 
     text(displayText, width/2 ,height/2);
 }
+
+function updateText() {
+    
+}
