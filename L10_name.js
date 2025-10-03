@@ -8,6 +8,7 @@ function setup() {
 
 function draw(){
     background('lightblue');
+    
 
-    text(displayText, wdith/2 ,height/2);
+    text(displayText, 30/2 ,height/2);
 }
