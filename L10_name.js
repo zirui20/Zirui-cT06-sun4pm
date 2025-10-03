@@ -5,7 +5,7 @@ function setup() {
     createCanvas(600,400);
 
     displayText = "hello world";
-    displayText1 = "Enter your age";
+    displayText1 = "Enter your age:";
 
     inputText = createInput();
     inputText.position(220, height - 100);
