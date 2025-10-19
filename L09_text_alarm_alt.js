@@ -4,9 +4,11 @@ let ctime; // will hold the current hour, minute and second
 let interval; // reference to the timer
 let countdown; // number to count
 let alarm;
+let change;
+let bgColor;
 
 function preload() {
-    alarm = loadSound('assets/Lose.mp3')
+    alarm = loadSound('assets/bossaNova.mp3')
 }
 
 function setup(){
@@ -22,7 +24,7 @@ function setup(){
 
 
 function draw(){
-    background('pink');
+    background('lightblue');
     csecond = second(); // current second
     cminute = minute(); // current minute
     chour = hour(); // current hour
@@ -49,7 +51,28 @@ function updateCountdown(){
     else{
         // stop the timer
         clearInterval(interval);
-        alarm.play();
+        change = setInterval(changeVar,500);
+       
     }
     
 }
+
+function changeVar() {
+    bgcolor = color(random(255), random(255), random(255));
+    alarm.play();
+}
+
+function keyPressed() {
+    if(keyCode === 32) {
+        clearInterval(change);
+        sound.stop();
+    }
+}
+
+
+
+
+
+////////////////////////////////////////////////////////
+
+

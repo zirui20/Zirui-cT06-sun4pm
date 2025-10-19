@@ -1,4 +1,4 @@
-let displayName;
+    let displayName;
 let displayAge;
 
 let inputName;
