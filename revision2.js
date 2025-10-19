@@ -58,7 +58,7 @@ let colorPicker;
 function setup() {
     createCanvas(600,600);
 
-    colorPicker = createColorPicker('orange');
+    colorPicker = createColorPicker('green');
     colorPicker.position(width/2, height-50);
 }
 
