@@ -20,7 +20,7 @@ function draw() {
 
     if(x>=width-ra || x<=ra) {
         speedX *=-1;
-    }
+    }   
 
 
     x += speedX;
