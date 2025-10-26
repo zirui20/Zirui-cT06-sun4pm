@@ -31,23 +31,23 @@
 //////////////////////////////////////////////////////////////////////
 // array of foods
 
-// let arr = ["pizza", "pies", "chocolates", "chips"];
+let arr = ["pizza", "pies", "chocolates", "chips"];
 
-// function setup() {
-//     createCanvas(400,400);
-// }
+function setup() {
+    createCanvas(400,400);
+}
 
-// function draw() {
-//     background(0);
+function draw() {
+    background(0);
 
-//     fill('orange');
-//     textSize(20);
-//     textAllign(CENTER,CENTER);
+    fill('orange');
+    textSize(20);
+    textAllign(CENTER,CENTER);
 
-//     for (let i=0; i<arr.length; i++) {
-//         text(arr[i], width/2, 100 + i*50);
-//     }
-// }
+    for (let i=0; i<arr.length; i++) {
+        text(arr[i], width/2, 100 + i*50);
+    }
+}
 
 
 ///////////////////////////////////////////////////////////
