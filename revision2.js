@@ -3,29 +3,29 @@
 // red ball hit the right side
 
 
-// let x = 300;
-// let speedX = 2;
-// let ra = 25;
+let x = 300;
+let speedX = 2;
+let ra = 25;
 
 
-// function setup() {
-//     createCanvas(600,400);
-// }
+function setup() {
+    createCanvas(600,400);
+}
 
-// function draw() {
-//     background('lightblue');
-//     fill('red');
-//     noStroke();
-//     circle(x,200,50);
+function draw() {
+    background('lightblue');
+    fill('red');
+    noStroke();
+    circle(x,200,50);
 
-//     if(x>=width-ra || x<=ra) {
-//         speedX *=-1;
-//     }
+    if(x>=width-ra || x<=ra) {
+        speedX *=-1;
+    }
 
 
-//     x += speedX;
-//     circle (x,height/2,40);
-// }
+    x += speedX;
+    circle (x,height/2,40);
+}
 
 
 //////////////////////////////////////////////////////////////////////
@@ -53,35 +53,35 @@
 ///////////////////////////////////////////////////////////
 // colourpicker
 
-let colorPicker;
-let textBox1;
-let textBox2;
-let text1;
-let text2;
+// let colorPicker;
+// let textBox1;
+// let textBox2;
+// let text1;
+// let text2;
 
-function setup() {
-    createCanvas(600,600);
+// function setup() {
+//     createCanvas(600,600);
 
-    colorPicker = createColorPicker('lightgreen');
-    colorPicker.position(width/2, height-50);
+//     colorPicker = createColorPicker('lightgreen');
+//     colorPicker.position(width/2, height-50);
 
-    textBox1 = createInput();
-    textBox1.position(width/2, height-150);
-    textBox1.input(display1);
+//     textBox1 = createInput();
+//     textBox1.position(width/2, height-150);
+//     textBox1.input(display1);
 
-    textBox2 = createInput();
-    textBox2.position(width/2, height-200);
+//     textBox2 = createInput();
+//     textBox2.position(width/2, height-200);
 
 
-function draw() {
-    background(colorPicker.value());
-    textSize(18);
+// function draw() {
+//     background(colorPicker.value());
+//     textSize(18);
     
 
-    text("choose your background colour:", 60, colorPicker.y-100);
-    text("enter your name:", 60, colorPicker.y-130);
-    text("enter your age:", 60, colorPicker.y-160);
+//     text("choose your background colour:", 60, colorPicker.y-100);
+//     text("enter your name:", 60, colorPicker.y-130);
+//     text("enter your age:", 60, colorPicker.y-160);
     
 
-    rect(50,100,500,150,50);
-}
+//     rect(50,100,500,150,50);
+// }
