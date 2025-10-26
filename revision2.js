@@ -54,18 +54,33 @@
 // colourpicker
 
 let colorPicker;
+let textBox1;
+let textBox2;
+let text1;
+let text2;
 
 function setup() {
     createCanvas(600,600);
 
-    colorPicker = createColorPicker('green');
+    colorPicker = createColorPicker('lightgreen');
     colorPicker.position(width/2, height-50);
-}
+
+    textBox1 = createInput();
+    textBox1.position(width/2, height-150);
+    textBox1.input(display1);
+
+    textBox2 = createInput();
+    textBox2.position(width/2, height-200);
+
 
 function draw() {
     background(colorPicker.value());
+    textSize(18);
+    
 
-    text("choose your background colour:", 50, colorPicker.y+15);
+    text("choose your background colour:", 60, colorPicker.y-100);
+    text("enter your name:", 60, colorPicker.y-130);
+    text("enter your age:", 60, colorPicker.y-160);
     
 
     rect(50,100,500,150,50);
