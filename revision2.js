@@ -3,29 +3,29 @@
 // red ball hit the right side
 
 
-let x = 300;
-let speedX = 2;
-let ra = 25;
+// let x = 300;
+// let speedX = 2;
+// let ra = 25;
 
 
-function setup() {
-    createCanvas(600,400);
-}
+// function setup() {
+//     createCanvas(600,400);
+// }
 
-function draw() {
-    background('lightblue');
-    fill('red');
-    noStroke();
-    circle(x,200,50);
+// function draw() {
+//     background('lightblue');
+//     fill('red');
+//     noStroke();
+//     circle(x,200,50);
 
-    if(x>=width-ra || x<=ra) {
-        speedX *=-1;
-    }   
+//     if(x>=width-ra || x<=ra) {
+//         speedX *=-1;
+//     }   
 
 
-    x += speedX;
-    circle (x,height/2,40);
-}
+//     x += speedX;
+//     circle (x,height/2,40);
+// }
 
 
 //////////////////////////////////////////////////////////////////////
