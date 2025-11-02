@@ -30,7 +30,8 @@ let arr = ["enter a noun","enter a verb","enter an adjective","enter an adverb",
 let button;
 let displayText1,displayText2,displayText3,displayText4,displayText5;
 let arr2 = [];
-let storyText = ""
+let storyText = "";
+let storyTem
 
 
 function setup() {
