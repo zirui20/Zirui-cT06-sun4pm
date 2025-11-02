@@ -48,7 +48,7 @@ function setup() {
     textBox5.position(width/2 - textBox1.width/2,300);
 
     button = createButton('generate story')
-    button.position(width/2 - )
+    button.position(width/2 - button)
 }
 function draw() {
     background(220);
