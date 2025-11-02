@@ -84,7 +84,7 @@ function display() {
     let template = random(storyTemplates);
 
     storyText = template.replace("{noun}", textBox1.value())
-    storyText = template.replace("{verb}", textBox2.value())
+                        .replace("{verb}", textBox2.value())
                         .replace("{adj}", textBox3value())
                         .replace("{adv}", textBox4value())
                         .replace("{place}", textBox5.value());
