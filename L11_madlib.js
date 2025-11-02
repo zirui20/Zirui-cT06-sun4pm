@@ -44,7 +44,7 @@ function setup() {
     textBox4.position(width/2 - textBox1.width/2,250);
 
     textBox5 = createInput();
-    textBox5.position(width/2 - textBox1.width/2,100);
+    textBox5.position(width/2 - textBox1.width/2,300);
 }
 function draw() {
     background(220);
