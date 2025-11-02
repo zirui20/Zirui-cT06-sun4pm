@@ -38,7 +38,7 @@ function setup() {
     createCanvas(600,600);
 
     textBox1 = createInput();
-    textBox1.position(width/2 - textBox1.width/2,100);
+    textBox1.position(width/2 - textBox1.width/2,200);
 
     textBox2 = createInput();
     textBox2.position(width/2 - textBox1.width/2,150);
