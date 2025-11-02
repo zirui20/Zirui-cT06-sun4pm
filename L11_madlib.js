@@ -26,7 +26,7 @@
 /////////////////////////////////////////////////////////////////////
 
 let textBox1,textoBox2,textBox3,textBox4,textBox5;
-let arr = []
+let arr = ["",""]
 
 
 function setup() {
