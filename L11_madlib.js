@@ -49,6 +49,7 @@ function setup() {
 
     button = createButton('generate story')
     button.position(width/2 - button.width/2,350);
+    button.mousePressed
 }
 function draw() {
     background(220);
