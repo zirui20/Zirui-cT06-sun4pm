@@ -82,6 +82,6 @@ function display() {
 
     let template = random(storyTemplates);
 
-    storyText = template.replace("(nou")
+    storyText = template.replace("{noun}")
 }
 
