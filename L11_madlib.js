@@ -31,7 +31,8 @@ let textBox1,textoBox2,textBox3,textBox4,textBox5;
 function setup() {
     createCanvas(600,600);
 
-    textBox1
+    textBox1 = createInput();
+    
 }
 function draw() {
     background(220);
