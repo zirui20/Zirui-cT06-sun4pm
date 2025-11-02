@@ -66,5 +66,6 @@ function draw() {
 }
 
 function display() {
-    displayText1 = textBox1,value
+    displayText1 = textBox1,value();
 }
+
