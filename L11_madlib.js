@@ -25,7 +25,7 @@
 
 /////////////////////////////////////////////////////////////////////
 
-let textbox1,textbox2
+let textBox1,textoBox2,textBox3
 
 
 function setup() {
