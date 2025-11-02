@@ -82,6 +82,6 @@ function display() {
 
     let template = random(storyTemplates);
 
-    stroy
+    story 
 }
 
