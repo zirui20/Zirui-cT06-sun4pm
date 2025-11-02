@@ -49,4 +49,7 @@ function setup() {
 }
 function draw() {
     background(220);
+
+        textBox1 = createInput();
+    textBox1.position(width/2 - textBox1.width/2,100);
 }
