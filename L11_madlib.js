@@ -82,6 +82,6 @@ function display() {
 
     let template = random(storyTemplates);
 
-    storyText = template.replace("{noun}")
+    storyText = template.replace("{noun}", textBox1.value)
 }
 
