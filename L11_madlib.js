@@ -81,5 +81,7 @@ function display() {
     arr2.push(displayText5);
 
     let template = random(storyTemplates);
+
+    stroy
 }
 
