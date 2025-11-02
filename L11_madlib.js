@@ -67,7 +67,7 @@ function draw() {
 }
 
 function display() {
-    displayText1 = textBox1.value();
+    displayText1 = "noun:" + textBox1.value();
     arr2.push(displayText1);
     displayText2 = textBox2.value();
     arr2.push(displayText2);
