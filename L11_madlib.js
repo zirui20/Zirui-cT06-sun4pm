@@ -65,7 +65,7 @@ function draw() {
         }
 
         TEXTALLIGN(CENTER,CENTER);
-        text(storyText)
+        text(storyText, width/2,400);
         
 }
 
