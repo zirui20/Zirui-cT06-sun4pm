@@ -64,7 +64,7 @@ function draw() {
             text(arr[i],50,400+i*50);
         }
 
-
+        TEXTALLIGN
         
 }
 
