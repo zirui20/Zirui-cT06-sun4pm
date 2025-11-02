@@ -71,9 +71,9 @@ function display() {
     arr2.push(displayText1);
     displayText2 = "verb:" + textBox2.value();
     arr2.push(displayText2);
-    displayText3 = "noun:" + textBox3.value();
+    displayText3 = "adj:" + textBox3.value();
     arr2.push(displayText3);
-    displayText4 = "noun:" + textBox4.value();
+    displayText4 = "adv:" + textBox4.value();
     arr2.push(displayText4);
     displayText5 = "noun:" + textBox5.value();
     arr2.push(displayText5);
