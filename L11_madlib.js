@@ -54,5 +54,7 @@ function draw() {
 
             text(arr[i],50,100+15+i*50);
         }
+
+        
         
 }
