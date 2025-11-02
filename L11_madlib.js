@@ -32,7 +32,7 @@ function setup() {
     createCanvas(600,600);
 
     textBox1 = createInput();
-    textBox1.position(100);
+    textBox1.position(width/2 - textBox1.width);
 }
 function draw() {
     background(220);
