@@ -84,8 +84,8 @@ function display() {
     let template = random(storyTemplates);
 
     storyText = template.replace("{noun}", textBox1.value);
-    storyText = template.replace("{noun}", textBox1.value);
-    storyText = template.replace("{noun}", textBox1.value);
+    storyText = template.replace("{verb}", textBox1.value);
+    storyText = template.replace("{adj}", textBox1.value);
     storyText = template.replace("{noun}", textBox1.value);
     storyText = template.replace("{noun}", textBox1.value);
 }
