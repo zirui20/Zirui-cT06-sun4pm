@@ -50,5 +50,8 @@ function setup() {
 function draw() {
     background(220);
 
-        text(arr[i])
+    for(let i=0; i<arr.length; i++) {
+            text(arr[i],50,100+15+i*50);
+        }
+        
 }
