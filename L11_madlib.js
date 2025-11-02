@@ -47,7 +47,8 @@ function setup() {
     textBox5 = createInput();
     textBox5.position(width/2 - textBox1.width/2,300);
 
-    button = createButton('gene')
+    button = createButton('generate story')
+    button
 }
 function draw() {
     background(220);
