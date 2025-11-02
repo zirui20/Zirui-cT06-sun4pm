@@ -75,7 +75,7 @@ function display() {
     arr2.push(displayText3);
     displayText4 = "adv:" + textBox4.value();
     arr2.push(displayText4);
-    displayText5 = "noun:" + textBox5.value();
+    displayText5 = "palce:" + textBox5.value();
     arr2.push(displayText5);
 }
 
