@@ -33,6 +33,12 @@ function setup() {
 
     textBox1 = createInput();
     textBox1.position(width/2 - textBox1.width/2,100);
+
+        textBox1 = createInput();
+    textBox1.position(width/2 - textBox1.width/2,100);
+
+    textBox1 = createInput();
+    textBox1.position(width/2 - textBox1.width/2,100);
 }
 function draw() {
     background(220);
