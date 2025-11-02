@@ -70,6 +70,7 @@ function display() {
     displayText1 = textBox1.value();
     arr2.push(displayText1);
     displayText2 = textBox2.value();
+    arr2.push(displayText1);
     displayText3 = textBox3.value();
     displayText4 = textBox4.value();
     displayText5 = textBox5.value();
