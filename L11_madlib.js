@@ -26,7 +26,7 @@
 /////////////////////////////////////////////////////////////////////
 
 let textBox1,textoBox2,textBox3,textBox4,textBox5;
-let arr = ["enter a noun","","","","",""];
+let arr = ["enter a noun","enter a verb","","","",""];
 
 
 function setup() {
@@ -47,7 +47,7 @@ function setup() {
     textBox5 = createInput();
     textBox5.position(width/2 - textBox1.width/2,300);
 
-    button = createButton('')
+    button = createButton('gene')
 }
 function draw() {
     background(220);
