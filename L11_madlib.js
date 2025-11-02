@@ -68,6 +68,7 @@ function draw() {
 
 function display() {
     displayText1 = textBox1.value();
+    arr2.push()
     displayText2 = textBox2.value();
     displayText3 = textBox3.value();
     displayText4 = textBox4.value();
