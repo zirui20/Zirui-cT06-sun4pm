@@ -26,7 +26,7 @@
 /////////////////////////////////////////////////////////////////////
 
 let textBox1,textoBox2,textBox3,textBox4,textBox5;
-let arr = ["enter a noun","enter a verb","enter an adjective","enter","",""];
+let arr = ["enter a noun","enter a verb","enter an adjective","enter an adverb",""];
 
 
 function setup() {
@@ -64,5 +64,5 @@ function draw() {
 }
 
 function display() {
-    
+
 }
