@@ -67,9 +67,9 @@ function draw() {
 
 function display() {
     displayText1 = textBox1.value();
-    displayText2 = textBox1.value();
-    displayText1 = textBox1.value();
-    displayText1 = textBox1.value();
-    displayText1 = textBox1.value();
+    displayText2 = textBox3.value();
+    displayText3 = textBox4.value();
+    displayText4 = textBox5.value();
+    displayText5 = textBox5.value();
 }
 
