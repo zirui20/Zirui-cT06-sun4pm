@@ -26,7 +26,7 @@
 /////////////////////////////////////////////////////////////////////
 
 let textBox1,textoBox2,textBox3,textBox4,textBox5;
-let arr = ["","","","","",""];
+let arr = ["enter","","","","",""];
 
 
 function setup() {
@@ -51,7 +51,7 @@ function draw() {
     background(220);
 
     for(let i=0; i<arr.length; i++) {
-        
+
             text(arr[i],50,100+15+i*50);
         }
         
