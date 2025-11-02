@@ -35,7 +35,7 @@ function setup() {
     textBox1.position(width/2 - textBox1.width/2,100);
 
     textBox2 = createInput();
-    textBox2.position(width/2 - textBox1.width/2,100);
+    textBox2.position(width/2 - textBox1.width/2,150);
 
     textBox1 = createInput();
     textBox1.position(width/2 - textBox1.width/2,100);
