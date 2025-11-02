@@ -41,10 +41,10 @@ function setup() {
     textBox3.position(width/2 - textBox1.width/2,100);
 
     textBox4 = createInput();
-    textBox1.position(width/2 - textBox1.width/2,100);
+    textBox4.position(width/2 - textBox1.width/2,100);
 
-    textBox1 = createInput();
-    textBox1.position(width/2 - textBox1.width/2,100);
+    textBox5 = createInput();
+    textBox5.position(width/2 - textBox1.width/2,100);
 }
 function draw() {
     background(220);
