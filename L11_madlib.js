@@ -38,10 +38,10 @@ function setup() {
     textBox2.position(width/2 - textBox1.width/2,150);
 
     textBox3 = createInput();
-    textBox3.position(width/2 - textBox1.width/2,100);
+    textBox3.position(width/2 - textBox1.width/2,200);
 
     textBox4 = createInput();
-    textBox4.position(width/2 - textBox1.width/2,100);
+    textBox4.position(width/2 - textBox1.width/2,250);
 
     textBox5 = createInput();
     textBox5.position(width/2 - textBox1.width/2,100);
