@@ -46,6 +46,8 @@ function setup() {
 
     textBox5 = createInput();
     textBox5.position(width/2 - textBox1.width/2,300);
+
+    button = createButton('')
 }
 function draw() {
     background(220);
@@ -55,6 +57,6 @@ function draw() {
             text(arr[i],50,100+15+i*50);
         }
 
-        
+
         
 }
