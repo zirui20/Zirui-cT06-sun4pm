@@ -29,7 +29,7 @@ let textBox1,textoBox2,textBox3,textBox4,textBox5;
 let arr = ["enter a noun","enter a verb","enter an adjective","enter an adverb","enter a place"];
 let button;
 let displayText1,displayText2,displayText3,displayText4,displayText5;
-let
+let arr2 = [];
 
 
 function setup() {
