@@ -69,11 +69,11 @@ function draw() {
 function display() {
     displayText1 = "noun:" + textBox1.value();
     arr2.push(displayText1);
-    displayText2 = textBox2.value();
+    displayText2 = "noun:" + textBox2.value();
     arr2.push(displayText2);
-    displayText3 = textBox3.value();
+    displayText3 = "noun:" + textBox3.value();
     arr2.push(displayText3);
-    displayText4 = textBox4.value();
+    displayText4 = "noun:" + textBox4.value();
     arr2.push(displayText4);
     displayText5 = textBox5.value();
     arr2.push(displayText5);
