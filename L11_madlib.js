@@ -87,6 +87,6 @@ function display() {
     storyText = template.replace("{verb}", textBox2.value())
     storyText = template.replace("{adj}", textBox3value())
     storyText = template.replace("{adv}", textBox4value())
-    storyText = template.replace("{place}", textBox5.value());
+        .replace("{place}", textBox5.value());
 }
 
