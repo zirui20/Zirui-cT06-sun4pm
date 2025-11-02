@@ -62,3 +62,7 @@ function draw() {
 
         
 }
+
+function display() {
+    
+}
