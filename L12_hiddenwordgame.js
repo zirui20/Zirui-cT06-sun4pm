@@ -21,3 +21,7 @@ function draw() {
     text("attempts: " + attempts, width/2, 120);
     text("hints: " +  hiddenWord, width/2, 170);
 }
+
+function display() {
+    
+}
