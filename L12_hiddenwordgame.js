@@ -41,10 +41,10 @@ function checkGuess() {
 }
 
 function getCorrectLetters(guess, hiddenWord) {
-    let correctLetter = "";
+    let correctLetters = "";
     for(let i=0; i<hiddenWord.length; i++) {
         if(hiddenWord.includes(guess[i])) {
-            
+            correctLetters
         }
     }
 }
