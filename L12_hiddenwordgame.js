@@ -42,5 +42,7 @@ function checkGuess() {
 
 function getCorrectLetters(guess, hiddenWord) {
     let correctLetter = "";
-    for(let i=0; i<hiddenWord.length; i++)
+    for(let i=0; i<hiddenWord.length; i++) {
+        
+    }
 }
