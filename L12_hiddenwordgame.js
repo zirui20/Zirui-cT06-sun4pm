@@ -40,3 +40,6 @@ function checkGuess() {
 
 }
 
+function getCorrectLetters(guess, hiddenWord) {
+    
+}
