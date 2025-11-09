@@ -36,5 +36,7 @@ function checkGuess() {
     attempts++;
 
     let guess = textBox.value();
-    message = getCorrectLetters(guess)
+    message = getCorrectLetters(guess, hiddenWord);
+
 }
+
