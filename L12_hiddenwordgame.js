@@ -14,7 +14,7 @@ function setup() {
 function draw() {
     background(220);
 
-    textAlign(CENTER);
+    textAlign(CENTRE);
     textSize(24);
     text("guess the word!", width/2, 70);
     text("attempts: " + attempts, width/2, 120);
