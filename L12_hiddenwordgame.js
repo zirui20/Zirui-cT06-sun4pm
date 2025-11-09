@@ -5,5 +5,5 @@ function draw() {
     background(220);
 
     text("guess the word!", width/2, 50);
-    text()
+    text("attempts: ")
 }
