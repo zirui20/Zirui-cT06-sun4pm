@@ -6,7 +6,7 @@ let button;
 function setup() {
     createCanvas(600,400);
     textBox = createInput();
-    text.Box
+    textBox.position(width/2 - )
 }
 function draw() {
     background(220);
