@@ -13,7 +13,7 @@ function setup() {
 
     button = createButton('Guess');
     button.position(textBox.x + textBox.width - 30, 200);
-    button.size(100)
+    button.size(100, 30);
     button.mousePressed(display);
 }
 function draw() {
