@@ -16,7 +16,7 @@ function setup() {
     textBox.style("font-size", "16px");
 
     button = createButton('Guess');
-    button.position(textBox.x + textBox.width - 30, 200);
+    button.position(textBox.x + textBox.width + 30, 200);
     button.size(100, 30);
     button.mousePressed(checkGuess);
 }
