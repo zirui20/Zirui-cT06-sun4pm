@@ -4,7 +4,7 @@ let textBox;
 let button;
 let disText = "";
 let words = ["apple", "grape", "peach", "mango","lemon"];
-let hint = ""
+let hint = "";
 
 function setup() {
     createCanvas(600,400);
