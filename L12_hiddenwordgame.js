@@ -5,6 +5,7 @@ let button;
 let disText = "";
 let words = ["apple", "grape", "peach", "mango","lemon"];
 let hint = "";
+let 
 
 function setup() {
     createCanvas(600,400);
@@ -47,5 +48,5 @@ function getCorrectLetters(guess, hiddenWord) {
             correctLetters += guess[i].toUpperCase();
         }
     }
-    return
+    return correctLetters;
 }
