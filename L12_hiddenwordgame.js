@@ -8,7 +8,8 @@ let words = ["apple", "grape", "peach", "mango","lemon"];
 function setup() {
     createCanvas(600,400);
 
-    hiddenWord = random(words)
+    hiddenWord = random(words);
+    
     textBox = createInput();
     textBox.position(width/2 - textBox.width/2, 200);
     textBox.size(150, 30);
