@@ -13,8 +13,8 @@ function setup() {
 }
 function draw() {
     background(220);
-    
-    textAllign(CENTER);
+
+    textAlign(CENTER);
     textSize(24);
     text("guess the word!", width/2, 50);
     text("attempts: " + attempts, width/2, 100);
