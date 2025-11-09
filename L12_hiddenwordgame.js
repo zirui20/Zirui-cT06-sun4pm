@@ -10,6 +10,7 @@ function setup() {
 
     button = createButton('Guess');
     button.position(textBox.x + textBox.width - 30, 200);
+    button.mouse
 }
 function draw() {
     background(220);
