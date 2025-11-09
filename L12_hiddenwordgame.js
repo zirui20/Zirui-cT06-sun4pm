@@ -4,5 +4,5 @@ function setup() {
 function draw() {
     background(220);
 
-    text("guess")
+    text("guess the word!", widt)
 }
