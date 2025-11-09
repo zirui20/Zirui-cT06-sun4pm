@@ -1,4 +1,7 @@
 let attempts = 0;
+let hiddenWord = "";
+let textBox;
+let button;
 
 function setup() {
     createCanvas(600,400);
@@ -6,7 +9,8 @@ function setup() {
 function draw() {
     background(220);
     textAllign(CENTER);
-
+    textSize(24);
     text("guess the word!", width/2, 50);
-    text("attempts: ")
+    text("attempts: ");
+     text("hints: " +  hiddenWord, width/2, 150);
 }
