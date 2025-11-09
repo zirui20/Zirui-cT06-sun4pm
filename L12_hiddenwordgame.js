@@ -34,5 +34,5 @@ function draw() {
 function checkGuess() {
     attempts++;
 
-    let guess = textBox
+    let guess = textBox.value();
 }
