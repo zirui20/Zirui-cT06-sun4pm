@@ -36,4 +36,5 @@ function checkGuess() {
     attempts++;
 
     let guess = textBox.value();
+    message = get
 }
