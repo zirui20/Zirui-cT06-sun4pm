@@ -2,6 +2,7 @@ let attempts = 0;
 let hiddenWord = "";
 let textBox;
 let button;
+let disText = "";
 
 function setup() {
     createCanvas(600,400);
@@ -23,5 +24,5 @@ function draw() {
 }
 
 function display() {
-    
+
 }
