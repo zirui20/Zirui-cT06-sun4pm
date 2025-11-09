@@ -40,7 +40,7 @@ function checkGuess() {
     message = getCorrectLetters(guess, hiddenWord);
 
     if(guess == hiddenWord) {
-        message = "your guess is right, the correct word is"
+        message = "your guess is right, the correct word is" + hiddenWord;
     }
 
 }
