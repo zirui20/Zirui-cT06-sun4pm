@@ -3,7 +3,7 @@ let hiddenWord = "";
 let textBox;
 let button;
 let disText = "";
-let words = ["apple", ""]
+let words = ["apple", "grape", "peach", ""]
 
 function setup() {
     createCanvas(600,400);
