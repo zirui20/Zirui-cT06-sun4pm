@@ -27,6 +27,6 @@ function draw() {
     text(disText, width/2, 250);
 }
 
-function display() {
-    disText = textBox.value();
+function checkGuess() {
+    attempts
 }
