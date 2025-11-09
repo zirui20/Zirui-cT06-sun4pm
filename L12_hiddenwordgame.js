@@ -44,7 +44,7 @@ function checkGuess() {
     } else if (guess.length !=5) {
         message = "5 letters only"
     } else {
-        message
+        message = "try again"
     }
 
 }
