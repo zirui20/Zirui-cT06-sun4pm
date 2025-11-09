@@ -24,5 +24,5 @@ function draw() {
 }
 
 function display() {
-    disText = textBox.va
+    disText = textBox.value();
 }
