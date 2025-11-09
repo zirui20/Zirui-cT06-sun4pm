@@ -14,7 +14,7 @@ function setup() {
     button = createButton('Guess');
     button.position(textBox.x + textBox.width - 30, 200);
     button.size(100, 30);
-    button.mousePressed(display);
+    button.mousePressed(checkGuess);
 }
 function draw() {
     background(220);
